@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random as rnd
 
+
 # FUNCTIONS
 
 def RadiusChange(E):
@@ -59,3 +60,6 @@ dt = 0.0001 # Time step
     # add step to time and interaction time
 
 # Store time of absorption (time of flight)
+=======
+
+ 
