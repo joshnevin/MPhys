@@ -3,6 +3,7 @@
 # M. Grant & J. Nevin MPhys 2018
 # Monte Carlo simulation of vortex ring transport in rotational system.
 '''
+# my names Jeff
 
 import matplotlib.pyplot as plt
 import numpy as np
