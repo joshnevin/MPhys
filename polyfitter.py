@@ -1,6 +1,7 @@
 # readDataBasic.py
 # program to read in data from a file
 # and simply display it
+# This is an edit
 
 import matplotlib.pyplot as plt
 import numpy as np 
