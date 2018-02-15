@@ -59,7 +59,7 @@ t_f = []
 R_max = []
 
 # Loop over n rings and record current
-for q in range(101):
+for q in range(100):
     print(q)
 
     # Arrays
@@ -86,9 +86,11 @@ for q in range(101):
 
         Lam = np.log(8*R[n]/a)
 
+        vel = RingVelocity(R[n])
+
         # Calculate P of interaction and RNG, compare to determine event
         # Using 2R as the interaction size
-        P_int = 1 - np.exp(-sigma*L*kappa*(Lam-0.5)*t_r/(4*np.pi))
+        P_int = sigma*R[n]*L*vel*dt
         P_test = np.random.uniform(low=0.000, high=1.0)
 
         print(P_int)
